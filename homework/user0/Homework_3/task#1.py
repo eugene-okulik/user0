@@ -9,4 +9,4 @@ product_task = a * b
 
 print(f"Сумма: {summa_task}")
 print(f"Разность: {difference_task}")
-print(f"Произведение {product_task}") 
+print(f"Произведение {product_task}")
