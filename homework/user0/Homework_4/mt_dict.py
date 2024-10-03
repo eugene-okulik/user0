@@ -20,9 +20,9 @@ my_dict = {
     'dict': {
         'one': 'value',
         'two': 'value2',
-        'three':'value3',
-        'four':'False',
-        'five':[1, 5, 8]
+        'three': 'value3',
+        'four': 'False',
+        'five': [1, 5, 8]
     },
     'set': {1, 4, 6, 9, None, 'text', False, 2.42, 3, 7}
 }
