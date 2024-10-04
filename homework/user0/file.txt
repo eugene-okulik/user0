@@ -1,1 +1,11 @@
-Z
+git checkout main
+git pull
+git checkout -b user0_homework_5
+Создаем папку homework_5
+Создаем файл для ДЗ-5 .py 
+
+
+git checkout user0_homework_4
+git add .
+git commit -m "Add Homework_4"
+git push 
