@@ -6,7 +6,7 @@ person = ['John', 'Doe', 'New York', '+1372829383739', 'US']
 
 С помощью распаковки создайте из этого списка переменные, содержащие соответствующие данные:
 
-name, last_name, city, phone, country 
+name, last_name, city, phone, country
 
 '''
 
