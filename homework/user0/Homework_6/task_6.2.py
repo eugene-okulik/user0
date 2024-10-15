@@ -28,11 +28,11 @@ FuzzBuzz
 '''
 
 for number in range(1, 101):
-    if number % 3 == 0 and number % 5 == 0: # если число кратно 3 и 5 то пишем FuzzBuzz
+    if number % 3 == 0 and number % 5 == 0:  # если число кратно 3 и 5 то пишем FuzzBuzz
         print('FuzzBuzz')
-    elif number % 3 == 0: # если число кратно 3, то пишем Fuzz
+    elif number % 3 == 0:  # если число кратно 3, то пишем Fuzz
         print('Fuzz')
-    elif number % 5 == 0: # если число кратно 5, то пишем Fuzz
+    elif number % 5 == 0:  # если число кратно 5, то пишем Fuzz
         print('Buzz')
     else:
         print(number)
