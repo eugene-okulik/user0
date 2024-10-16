@@ -17,7 +17,7 @@ words = text.split()  # Разделяем text на слова
 
 for word in words:  # для слова ис списка слов
     if word.endswith(',') or word.endswith('.'):
-        new_word = word[:-1] + 'ing' + word[-1] 
+        new_word = word[:-1] + 'ing' + word[-1]
     else:
         new_word = word + 'ing'
     print(new_word, end=' ')
