@@ -15,7 +15,7 @@
 
 number = '9'
 
-while True:  
+while True:
     user_input = input('введите цифру от 1 до 10: ')
     if user_input == number:
         break
@@ -23,4 +23,3 @@ while True:
         print('попробуйте снова')
 
 print('Поздравляю! Вы угадали!')
-
