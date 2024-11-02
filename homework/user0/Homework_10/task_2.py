@@ -7,8 +7,7 @@
 
 @repeat_me
 def example(text):
-    print(text)
-    
+    print(text)    
 example('print me', count=2)
 В результате работы будет такое:
 
@@ -22,10 +21,10 @@ print me
 
 @repeat_me(count=2)
 def example(text):
-    print(text)
-    
+    print(text)    
 example('print me')
 '''
+
 
 def repeat_me(count=1):
     '''
@@ -39,6 +38,7 @@ def repeat_me(count=1):
         return wrapper
     return decorator
 
+
 # Пример использования
 @repeat_me(count=2)
 def example(text):
@@ -46,5 +46,6 @@ def example(text):
     Применяем декоратор @repeat_me к функции example.
     '''
     print(text)
+
 
 example('print me')

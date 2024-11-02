@@ -9,7 +9,7 @@
 @finish_me
 def example(text):
     print(text)
-    
+
 example('print me')
 В результате работы будет такое:
 
@@ -17,6 +17,7 @@ print me
 
 finished
 '''
+
 
 def finish_me(func):
     '''
@@ -26,7 +27,7 @@ def finish_me(func):
     def wrapper(*args, **kwargs):
         '''
         Внутри finish_me создаём вложенную функцию wrapper, которая оборачивает
-        логику переданной функции func. *args и **kwargs позволяют принимать 
+        логику переданной функции func. *args и **kwargs позволяют принимать
         произвольные позиционные и именованные аргументы, чтобы декоратор работал
         с любой функцией.
         '''
@@ -38,6 +39,7 @@ def finish_me(func):
         return result
     return wrapper
 
+
 # Пример использования
 @finish_me
 def example(text):
@@ -47,5 +49,6 @@ def example(text):
     теперь будет выполняться через wrapper.
     '''
     print(text)
+
 
 example('print me')
