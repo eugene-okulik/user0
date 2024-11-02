@@ -7,7 +7,7 @@
 
 @repeat_me
 def example(text):
-    print(text)    
+    print(text)
 example('print me', count=2)
 В результате работы будет такое:
 
@@ -21,7 +21,7 @@ print me
 
 @repeat_me(count=2)
 def example(text):
-    print(text)    
+    print(text)
 example('print me')
 '''
 
