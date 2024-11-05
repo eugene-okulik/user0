@@ -19,6 +19,8 @@ def calc(first, second, operation):
 если второе больше первого - деление первого на второе
 если одно из чисел отрицательное - умножение
 """
+
+
 # Декоратор для управления операцией
 def operation_controller(func):
     '''
@@ -37,6 +39,7 @@ def operation_controller(func):
         # Вызываем исходную функцию с выбранной операцией
         return func(first, second, operation)
     return wrapper
+
 
 # Декорированная функция для выполнения арифметических операций
 @operation_controller
@@ -58,6 +61,7 @@ def calc(first, second, operation):
             return "Ошибка: деление на ноль!"
     else:
         return "Неизвестная операция"
+
 
 # Основная программа
 try:
